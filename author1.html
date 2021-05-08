@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<style>
+    img{
+        width: 150px;
+        height: 200px;
+    }    
+</style>
+   <body style="background-image: url(zimg/photo-1535905748047-14b2415c77d5.jfif)">
+    <div class="container bg-danger" style="height: 100px">
+        <h1 class="text-white display-2">Bookish Freaks</h1>
+       </div>
+    <div class="container bg-dark">
+    
+     <br><br> <div class="row">
+        <div class="col"><button class="btn btn-danger btn-block text-white"><a class="text-white" href="Main.html">Home</a></button></div>
+            <div class="col">                                                                                <button class="btn btn-danger btn-block text-white" id="cat">Categories</button></div>
+            <div class="col"><button class="btn btn-danger btn-block text-white">About Us</button></div>
+            <div class="col"><button class="btn btn-danger btn-block text-white">Contact Us</button></div>
+        </div><br>
+        <div class="row container-fluid">
+            
+           <div class="float-right">
+             <div id="dcat" style="display: none" class="row">
+           
+            <div class="col-sm-4">
+                <img src="zimg/photo-1576260735040-0161203bab23.jfif" width="350px" height="300px"><a class="btn btn-danger btn-block text-white">Genre</a>
+           </div>
+           <div class="col-sm-4">
+                <img src="zimg/author.jfif" width="350px" height="300px"><a class="btn btn-danger btn-block text-white" href="author.html">Author</a>
+           </div>
+           <div class="col-sm-4">
+                <img src="zimg/background%20img.jpeg"  width="350px" height="300px"><a class="btn btn-danger btn-block text-white" href="book.html">Books</a>
+           </div>
+        </div>
+        </div>
+       </div><br><br>
+        <div class="row">
+            <div class="col-sm-3"><img src="zimg/jkr.jpg" alt="alligent"></div><br>
+            <div class="col-sm-3"><img src="zimg/apj%20abdul%20kalam.jpg" alt="alligent"></div><br>
+            <div class="col-sm-3"><img src="zimg/stephanie_meyer.jpg" alt="alligent"></div><br>
+            <div class="col-sm-3"><img src="zimg/ruth.jpg" alt="alligent"></div><br>
+        </div><br>
+        <div class="row">
+            <div class="col-sm-3"><img src="zimg/johngr.jpg" alt="alligent"></div><br>
+            <div class="col-sm-3"><img src="zimg/paulo.jpg" alt="alligent"></div><br>
+            <div class="col-sm-3"><img src="zimg/paula%20hawkins.jpg" alt="alligent"></div><br>
+            <div class="col-sm-3"><img src="zimg/rls.jpg" alt="alligent"></div><br>
+        </div><br>
+        
+      
+    </div>
+       <script>
+    $(document).ready(function(){
+       $("#home").click(function(){
+          $("#dhome").; 
+       });
+        $("#cat").click(function(){
+           $("#dcat").toggle(); 
+        });
+    });
+    </script>
+       
+</body>
+</html>
